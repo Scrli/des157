@@ -155,14 +155,17 @@ ol {
  */
 
 footer {
-  position: relative;
+  position:fixed;
   width: 100%;
   left: 0;
   bottom: 0;
   align-content: center;
   clear: both;
   display: flex;
-  align-items: flex-start;
+  align-items:center;
+  padding-left: 22%;
+  margin-top: 20px;
+  background-color: white;
 }
 
 footer ul li {
