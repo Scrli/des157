@@ -1,0 +1,182 @@
+/*
+ *
+ * js
+ *
+ */
+
+#mySketch {
+  background-color: #aaaaaa;
+  width: 100%;
+  max-width: 800px;
+  height: 250px;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+/*
+ *
+ * Body
+ *
+ */
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*
+ *
+ * Typography
+ *
+ */
+
+#subhead {
+  color: #aaaaaa;
+}
+
+#subhead li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 0px;
+  color: #aaaaaa;
+}
+
+#studio li {
+  margin-left: 0px;
+}
+
+p, ol, ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+section p a:link {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+section p a:visited {
+  color: #aaaaaa;
+}
+
+section p a:hover {
+  text-decoration: none;
+  color: #e03838;
+}
+
+section p a:active {
+  color: #000000;
+}
+
+footer p a:link {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+footer p a:visited {
+  color: #aaaaaa;
+}
+
+footer p a:hover {
+  text-decoration: none;
+  color: #e03838;
+}
+
+footer p {
+  color: red;
+  font-weight: 800;
+}
+
+/*
+  *
+  * Intro
+  *
+  */
+
+#title {
+  width: 35%;
+  padding-top: 50px;
+}
+
+#studio {
+  width: 35%;
+  padding-top: 120px;
+}
+
+#project {
+  width: 14%;
+  padding-top: 120px;
+}
+
+/*
+ *
+ * Interactive Header
+ *
+ */
+
+header {
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  border-color: #000000;
+  border-width: thin;
+}
+
+/*
+ *
+ * 2 Columns
+ *
+ */
+
+section, div {
+  width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+#col-studios {
+  float: left;
+  width: 30%;
+}
+
+ol {
+  padding-left: 0px;
+}
+
+/*
+ *
+ * footer
+ *
+ */
+
+footer {
+  position: relative;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  align-content: center;
+  clear: both;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 60px;
+  padding-top: 0px;
+}
+
+footer ul li p {
+  font-size: 14px;
+  color: grey;
+}
+
+#footer {
+  padding-left: 0px;
+}

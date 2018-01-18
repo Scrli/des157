@@ -1,3 +1,2 @@
-# Student Template for DES157
-
-Begin by forking this repository to your personal GitHub account (click Fork in the upper right)
+# des157-w18-repo
+Sijia Li's DES157 2018WQ
