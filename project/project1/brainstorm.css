@@ -1,6 +1,16 @@
-img {
-  height: 700px;
+body{
+  width: 500px;
   margin: 0 auto;
   margin-left: 300px;
   margin-top: 50px;
+  color: grey;
+}
+
+img{
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+h1{
+  color: red;
 }
