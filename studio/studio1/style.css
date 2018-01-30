@@ -1,6 +1,5 @@
 
 body {
-  size: 1366×768px;
   width: 80%;
   margin: 0 auto;
 }
@@ -46,7 +45,6 @@ input[type="reset"],
 input[type="button"] {
   width: 40%;
   height: 20px
-  margin: 80%;
   padding: 6px;
   border: none; /*remove default*/
   border: 2px red solid;
@@ -87,5 +85,3 @@ p{
   font-weight: bold;
   font-size: 22px;
 }
-
-/* css animation transition css position//
