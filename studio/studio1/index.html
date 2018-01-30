@@ -1,0 +1,64 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MadLibs</title>
+  <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Cooking Guide</h1></header>
+  <div id="step1">
+    <h2>Step1: Choosing food</h2>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+      <label for="Meat">Meat</label>
+      <input type="text" name="Meat"><br>
+      <label for="Meat">Vegetable</label>
+      <input type="text" name="Vegetable"><br>
+      <label for="Meat">Ingredient</label>
+      <input type="text" name="Ingredient"><br>
+      <label for="Meat">Nut</label>
+      <input type="text" name="Nut"><br>
+      <label for="Meat">Fruit</label>
+      <input type="text" name="Fruit"><br>
+      <label for="Meat">Cheese</label>
+      <input type="text" name="Cheese"><br>
+      <label for="Meat">Sauce</label>
+      <br>
+      <input type="checkbox" name="Sauce1" value="Hollandaise">Hollandaise Sauce<br>
+      <input type="checkbox" name="Sauce2" value="Hot"> Hot Sauce<br>
+      <input type="checkbox" name="Sauce3" value="BBQ"> BBQ Sauce<br><br>
+      <label for="Meat">Drink</label>
+      <br>
+      <input type="radio" name="Drink" value="Yes" checked> Just water, thanks!<br>
+      <input type="radio" name="Drink" value="No"> Please give me a shot. <br><br>
+      <input id = "fstStep" type="button" value="I am Ready!">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+
+  <div>
+    <h2 id="Step2"></h2>
+    <p id="Step2List"></p><br>
+    <form>
+      <input id="nxtStep" type="button" style="visibility: hidden" value="Next Step">
+    </form>
+  </div>
+
+
+  <div>
+    <h2 id="Step3"></h2>
+    <p id="Step3List"></p><br>
+  </div>
+
+
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+  </footer>
+  <script src="script.js"></script>
+</body>

@@ -1,0 +1,90 @@
+
+body {
+  size: 1366×768px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 120px;
+  font-weight: bold;
+  color: red;
+}
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+label{
+  font-weight:bold;
+  font-size: 20px;
+  color: black;
+}
+div:last-child {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 25%;
+  padding: 1%;
+  border: none; /*remove default*/
+  border-bottom: 1px black solid;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+input[type="checkbox"]{
+  padding-top: 3%;
+  border: none; /*remove default*/
+  font-size: 1.5em;
+}
+
+input[type="radio"]{
+  padding-top: 3%;
+}
+input[type="reset"],
+input[type="button"] {
+  width: 40%;
+  height: 20px
+  margin: 80%;
+  padding: 6px;
+  border: none; /*remove default*/
+  border: 2px red solid;
+  font-size: 1em;
+  color: white;
+  background-color: red;
+}
+
+div {
+  float: left;
+  width: 33%;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  align-content: center;
+  clear: both;
+  display: flex;
+  align-items:center;
+  padding-left: 22%;
+  margin-top: 20px;
+  background-color: white;
+}
+footer a {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: grey;
+
+}
+p{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* css animation transition css position//
