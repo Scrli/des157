@@ -57,7 +57,8 @@ input[type="button"] {
 
 div {
   float: left;
-  width: 33%;
+  width: 30%;
+  margin-right: 20px;
 }
 footer{
   position: fixed;
