@@ -5,7 +5,7 @@ body {
 }
 
 h1{
-  font-size: 120px;
+  font-size: 100px;
   font-weight: bold;
   color: red;
 }
@@ -44,9 +44,9 @@ input[type="radio"]{
 input[type="reset"],
 input[type="button"] {
   width: 40%;
-  height: 20px
+  height: 35px;
   padding: 6px;
-  border: none; /*remove default*/
+  border: none;
   border: 2px red solid;
   font-size: 1em;
   color: white;
