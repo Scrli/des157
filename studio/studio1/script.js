@@ -1,5 +1,6 @@
 console.log('reading');
 
+document.getElementById("fstStep").onclick = validateForm;
 // validation function
 function validateForm() {
   var x = document.forms["myForm"]["Meat"].value;
@@ -45,11 +46,10 @@ function validateForm() {
     alert('Please, choose at least one sauce');
     return false;
   }
+  processForm();
 }
 
 var Meat, Vegetable, Ingredient, Nut, Fruit, Cheese;
-
-document.getElementById("fstStep").onclick = processForm;
 // process function
 function processForm() {
   Meat = document.myForm.Meat.value;
@@ -71,6 +71,6 @@ function showFinish() {
   var Step3List = "1. Put 1/4 cup oil into heated pan.<br> 2. Put " + Ingredient + Fruit + " into pan and cook for 20 secs.<br> 3. Squeeze " + Nut + " on the top.<br> 4. Add 1/2 cup of water.<br>Put " + Meat + " into th pan. <br> 5. Dish up and you finished!";
  document.getElementById("Step3List").innerHTML = Step3List;
  document.getElementById("Step3").innerHTML = "Step 3. Cooking food";
- document.getElementById("finish").style.visibility = 'visible';
+ document.getElementById("Step3List").style.visibility = 'visible';
   return false;
 }
