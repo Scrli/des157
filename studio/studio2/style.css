@@ -1,6 +1,8 @@
 body {
-  width: 1366px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
 }
 
 main {
@@ -31,7 +33,7 @@ li {
   float: left;
   width: 10%;
   display: inline;
-  padding:20px;
+  padding: 20px;
 }
 
 #items1 {
@@ -60,8 +62,6 @@ li {
   transform: scale(1.5, 1.5);
   transition: all 500ms;
 }
-
-
 
 #explain {
   margin-left: 35%;
@@ -98,13 +98,6 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-}
-
-/*     transform: translate(10%, -75%);
-    transition: opacity 0.5s, transform 1s;
-    transition-timing-function: cubic-bezier(.24,.69,.38,.89);
-    width: 100%;*/
-
 }
 
 @media only screen and (min-width: 768px) {
