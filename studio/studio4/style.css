@@ -1,5 +1,5 @@
 .marker {
-  background-image: url('mapbox-icon.png');
+  background-image: url('./images/7.png');
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -26,4 +26,80 @@ body {
 .mapboxgl-popup-content {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  position: absolute;
+  top: 30px;
+  width: 80%;
+  margin-left: 10%;
+  height: 50px;
+  border-radius: 12px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+input{
+  position: relative;
+  top: 4px;
+  width: 80%;
+  margin-left: 10%;
+  height: 40px;
+
+
+}
+
+.horizontal-scroll-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 1000px;
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#scroll {
+  display: inline;
+  float: left;
+  bottom: 0;
+  left: 0;
+  width: 98px;
+  height: 98px;
+  background-color: white;
+  border-radius:12px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+  display: inline-block;
+}
+
+footer{
+  position: fixed;
+  bottom: 10px;
+  left: 30%;
+  color: grey;
+  font-size: 9px;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+img{
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: grey;
 }

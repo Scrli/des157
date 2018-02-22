@@ -97,23 +97,10 @@ geojson.features.forEach(function(marker) {
 var nav = new mapboxgl.NavigationControl();
 map.addControl(nav, 'top-right');
 
-/*
-// send request
-var marker = document.getElementsByClassName("marker mapboxgl-marker");
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
 
-for (var i = 0; i < marker.length; i++) {
-  marker[i].onclick = function() {
-
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.status == 200) {
-        alert("request success");
-      } else {
-        alert("requst fail");
-      }
-      console.log(xhttp);
-    };
-    xhttp.open("GET", "https://api.mapbox.com/directions/v5/mapbox/driving/13.4265,52.5080;13.4273,52.5069?steps=true&geometries=polyline&access_token=pk.eyJ1Ijoic2NybGkiLCJhIjoiY2pkeHlpd2dyMHRhbzJxbzFrZmxmbmV1ZiJ9.Xk2XWrhyCBBbYakhbMzHNg", true);
-    xhttp.send();
-  }
-};*/
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
