@@ -62,4 +62,4 @@ geojson.features.forEach(function(marker) {
 });
 
 var nav = new mapboxgl.NavigationControl();
-map.addControl(nav, 'top-left');
+map.addControl(nav, 'top-right');
