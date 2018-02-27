@@ -1,0 +1,13 @@
+body{
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  color: grey;
+}
+
+h1{
+  color: red;
+}
+img{
+  width: 80%;
+}
