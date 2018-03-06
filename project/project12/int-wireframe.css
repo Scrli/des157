@@ -1,0 +1,88 @@
+/** general style **/
+body{
+  width: 100%;
+  margin: auto;
+  background-color: #F1F1F1;
+}
+.icon{
+  width: 55px;
+  margin-left: 20px;
+}
+/** banner **/
+#banner{
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 150px;
+  position: fixed;
+}
+
+#banner p{
+  font-size: 40px;
+  width: 100%;
+  margin:auto;
+  margin-top:50px;
+  float: left;
+  font-weight: bolder;
+  text-align: center;
+}
+/** restaurant list **/
+#restaurants-list{
+  padding-top: 150px;
+  margin-bottom: 200px;
+}
+.restpost{
+  background-color: white;
+  width: 45%;
+  float: left;
+  height: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 25px;
+  font-size: 40px;
+
+}
+.rest-img{
+  margin: auto;
+  height: 300px;
+  background-color: grey;
+    border-radius: 25px 25px 0 0;
+}
+.restpost a{
+  margin: 20px;;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+
+footer{
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  height: 150px;
+  position: fixed;
+}
+
+#footer a{
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top:50px;
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#validator{
+  font-size: 30px;
+  margin-bottom: 150px;
+  margin-top: 30px;
+
+}
+#validator a{
+  text-decoration: none;
+  color: black;
+  
+}
