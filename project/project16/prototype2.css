@@ -82,6 +82,13 @@ body{
   color: black;
   font-weight: bold;
 }
+.restpost p{
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
 a:hover{
   color: grey;
 }
@@ -97,7 +104,6 @@ a:hover{
 .status p{
   text-align: center;
   color: grey;
-
 }
 
 footer{

@@ -5,56 +5,85 @@
   <meta charset="utf-8">
   <title>detail page</title>
   <link href="detail.css" rel="stylesheet">
+  <script src="detail.js"></script>
 </head>
 
-<body>
+<body onload="initPage();">
+<div id="bannerimg"><img src="./images/4.jpg" alt="banner images"></div>
 
   <div id="detailbanner">
-    <p>Hunan Bar</p>
+      <p>Hunan Bar</p>
+      <button id="status">Open
   </div>
+
   <section id="detail">
     <div id="dish">
       <ul>
 
-        <li>上海蟹绒小笼包</li>
-        <li>红烧大盘香辣鱼</li>
-        <li>早餐豆浆油条</li>
-        <li>湖南小炒肉</li>
-        <li>拔丝小香蕉</li>
-        <li>秋田桂花糕</li>
-        <li>甜酒丸子</li>
-        <li>热干面</li>
+        <li id="dishname1">上海蟹绒小笼包</li>
+        <li id="dishname2">红烧大盘香辣鱼</li>
+        <li id="dishname3">早餐豆浆油条</li>
+        <li id="dishname4">湖南小炒肉</li>
+        <li id="dishname5">拔丝小香蕉</li>
+        <li id="dishname6">秋田桂花糕</li>
+        <li id="dishname7">甜酒丸子</li>
+        <li id="dishname8">热干面</li>
 
       </ul>
     </div>
     <div id="dishprice">
       <ul>
-        <li>$7.00</li>
-        <li>$17.00</li>
-        <li>$27.00</li>
-        <li>$7.00</li>
-        <li>$7.00</li>
-        <li>$7.00</li>
-        <li>$7.00</li>
-        <li>$7.00</li>
+        <li>$7</li>
+        <li>$17</li>
+        <li>$27</li>
+        <li>$14</li>
+        <li>$12</li>
+        <li>$7</li>
+        <li>$3</li>
+        <li>$6</li>
+      </ul>
+    </div>
+
+    <div id="minus">
+      <ul>
+        <li id="minus1" onclick="minus1();"><img src="./images/minus.png"></li>
+        <li id="minus2" onclick="minus2();"><img src="./images/minus.png"></li>
+        <li id="minus3" onclick="minus3();"><img src="./images/minus.png"></li>
+        <li id="minus4" onclick="minus4();"><img src="./images/minus.png"></li>
+        <li id="minus5" onclick="minus5();"><img src="./images/minus.png"></li>
+        <li id="minus6" onclick="minus6();"><img src="./images/minus.png"></li>
+        <li id="minus7" onclick="minus7();"><img src="./images/minus.png"></li>
+        <li id="minus8" onclick="minus8();"><img src="./images/minus.png"></li>
+      </ul>
+    </div>
+    <div id="dishnum">
+      <ul>
+        <li id="num1">0</li>
+        <li id="num2">0</li>
+        <li id="num3">0</li>
+        <li id="num4">0</li>
+        <li id="num5">0</li>
+        <li id="num6">0</li>
+        <li id="num7">0</li>
+        <li id="num8">0</li>
       </ul>
     </div>
     <div id="plus">
       <ul>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
-        <li><img src="./images/plus.png"></li>
+        <li id="plus1" onclick="plus1();"><img src="./images/plus.png"></li>
+        <li id="plus2" onclick="plus2();"><img src="./images/plus.png"></li>
+        <li id="plus3" onclick="plus3();"><img src="./images/plus.png"></li>
+        <li id="plus4" onclick="plus4();"><img src="./images/plus.png"></li>
+        <li id="plus5" onclick="plus5();"><img src="./images/plus.png"></li>
+        <li id="plus6" onclick="plus6();"><img src="./images/plus.png"></li>
+        <li id="plus7" onclick="plus7();"><img src="./images/plus.png"></li>
+        <li id="plus8" onclick="plus8();"><img src="./images/plus.png"></li>
       </ul>
     </div>
   </section>
 
   <a href="./pay.html" id="pay">
-    <p>Order</p>
+    <p onclick="saveToLocal();">Order</p>
   </a>
   </div>
 

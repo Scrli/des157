@@ -5,21 +5,45 @@
   <meta charset="utf-8">
   <title>Pay page</title>
   <link href="pay.css" rel="stylesheet">
+  <script src="pay.js"></script>
 </head>
 
-<body>
-<div id="pay">
-  <div id="paybanner"><p>Confirm Order</p></div>
-<div id="dish">
+<body onload="initPayList();">
+  <div id="detailbanner">
+    <p>Hunan Bar</p>
+    <button id="status">Open
+  </div>
+
+<div class="dish">
+  <div id="dishname">
   <ul>
-    <li>DishName</li>
-    <li>DishName</li>
-    <li>DishName</li>
-    <li>DishName</li>
-    <li>Total payment</li>
+    <li id="dishname1"></li>
+    <li id="dishname2"></li>
+    <li id="dishname3"></li>
+    <li id="dishname4"></li>
+    <li id="dishname5"></li>
+    <li id="dishname6"></li>
+    <li id="dishname7"></li>
+    <li id="dishname8"></li>
+    <li id="dishname9"></li>
   </ul></div>
-  <div id="venmo"><a href="./status.html"><p>Pay</p></a></div>
+
+  <div id="dishprice">
+  <ul>
+    <li id="dishprice1"></li>
+    <li id="dishprice2"></li>
+    <li id="dishprice3"></li>
+    <li id="dishprice4"></li>
+    <li id="dishprice5"></li>
+    <li id="dishprice6"></li>
+    <li id="dishprice7"></li>
+    <li id="dishprice8"></li>
+    <li id="totalPrice"></li>
+  </ul></div>
 </div>
+
+  <div id="venmo"><a href="./status.html"><p>Pay</p></a></div>
+
 
 <footer id="footer">
   <a href="./prototype2.html">Home</a>
