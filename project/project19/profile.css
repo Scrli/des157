@@ -1,0 +1,68 @@
+body{
+    background-color: #F1F1F1;
+}
+#profile{
+  width: 100%;
+  margin: auto;
+  font-size: 30px;
+}
+#profilebanner{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: white;
+  top: 0;
+}
+#profilebanner p{
+  font-size: 40px;
+  width: 100%;
+  margin:auto;
+  margin-top:50px;
+  float: left;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+#info{
+  background-color: white;
+  width: 95%;
+  margin: auto;
+  border-radius:25px;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+
+#info li{
+  height: 150px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 35px;
+  margin-left: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer{
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  height: 150px;
+  position: fixed;
+}
+#info a{
+  text-decoration: none;
+}
+
+#footer a{
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top:50px;
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+#footer img{
+  height: 60px;
+  margin-left: 30px;
+}

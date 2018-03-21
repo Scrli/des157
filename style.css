@@ -107,10 +107,17 @@ footer p {
 }
 
 #project {
-  width: 14%;
+  width: 35%;
   padding-top: 120px;
 }
-
+#col-project{
+  float: left;
+  width: 40%;
+}
+#section{
+  height: 700px;
+  margin-bottom: 300px;
+}
 /*
  *
  * Interactive Header
