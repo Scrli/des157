@@ -75,3 +75,22 @@ footer{
   height: 60px;
   margin-left: 30px;
 }
+#validator{
+  margin-left: 50px;
+  font-size: 30px;
+  margin-bottom: 150px;
+  margin-top: 30px;
+
+}
+#validator a{
+  font-size: 20px;
+  color: grey;
+    display: inline;
+    text-decoration: none;
+}
+#validator ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 60px;
+  padding-top: 0px;
+}
